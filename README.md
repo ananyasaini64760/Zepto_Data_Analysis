@@ -3,9 +3,12 @@
 A comprehensive, real-world data analyst portfolio project built around an e-commerce inventory dataset scraped from Zepto, one of India’s rapidly expanding quick-commerce startups. The project replicates actual analyst workflows — starting from raw data exploration all the way to actionable, business-driven insights.
 
 Ideal for:
-	•	📊 Aspiring data analysts looking to showcase a standout portfolio project for LinkedIn or interviews
-	•	📚 Learners seeking hands-on SQL practice in a realistic business context
-	•	💼 Candidates preparing for roles in e-commerce, retail, or product/data analytics
+
+ •	📊 Aspiring data analysts 
+	
+ •	📚 Learners seeking hands-on SQL practice in a realistic business context
+	
+ •	💼 Candidates preparing for roles in e-commerce, retail, or product/data analytics
 
  ## 📌 Project Overview
 
