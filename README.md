@@ -1,6 +1,6 @@
 # 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
 
-A comprehensive, real-world data analyst portfolio project built around an e-commerce inventory dataset scraped from Zepto, one of India’s rapidly expanding quick-commerce startups. The project replicates actual analyst workflows — starting from raw data exploration all the way to actionable, business-driven insights. Performed on PostgreSQL
+A comprehensive, real-world data analyst portfolio project built around an e-commerce inventory dataset scraped from Zepto, one of India’s rapidly expanding quick-commerce startups. The project replicates actual analyst workflows — starting from raw data exploration all the way to actionable, business-driven insights. Performed on PostgreSQL.
 
 Ideal for:
 
