@@ -62,3 +62,9 @@ Each row represents a **unique SKU (Stock Keeping Unit)**. Duplicate product nam
 ## 📎 Data Source
 
 - [Kaggle: Zepto Inventory Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset) 
+
+---
+
+## Screenshot
+
+[Have a look!](https://github.com/ananyasaini64760/Zepto_Data_Analysis/blob/main/ScreenShot.png)
