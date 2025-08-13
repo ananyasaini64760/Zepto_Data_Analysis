@@ -148,3 +148,48 @@ SUM(weightInGms * availableQuantity) AS total_weight
 FROM zepto_data
 GROUP BY category
 ORDER BY total_weight;
+
+
+
+
+-- CASE Function
+
+select name, mrp,
+		case
+			when mrp >= 50 then 'Expensive'
+			when mrp >= 30 and mrp < 50 then 'Moderate'
+			when mrp >= 10 and mrp < 30 then 'Affordable'
+			else 'cheap'
+		end as price_category
+from zepto_data;
+
+
+select name, availablequantity,
+		case 
+			when availablequantity > 0 then 'inStock'
+			else 'outOfStock'
+		end as info
+from zepto_data;
+
+alter table zepto_data
+add column final_price numeric(10,2);
+
+update zepto_data
+set final_price = mrp * (1-(discountpercent/100))
+where name not in ('Onion', 'Potato', 'Lemon');
+
+-- coalesce function
+
+select name,
+	coalesce(mrp, final_price)
+from zepto_data;
+
+-- Window Functions
+
+select name, category, mrp,
+		dense_rank() over(partition by category order by mrp)
+from zepto_data;
+
+select name, category, mrp,
+		avg(mrp) over(partition by category order by mrp)
+from zepto_data;
