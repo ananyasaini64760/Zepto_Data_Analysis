@@ -67,4 +67,4 @@ Each row represents a **unique SKU (Stock Keeping Unit)**. Duplicate product nam
 
 ## Here's a representation of the Analysis
 
-![Have a look!](./Zepto-Ecommerce-Data-Analysis-PPT.pdf)
+[Have a look!](https://github.com/ananyasaini64760/Zepto_Data_Analysis/blob/main/Zepto%20Ecommerce%20Data%20Analysis%20PPT.pdf)
